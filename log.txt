@@ -1,0 +1,6 @@
+commit 05c845d7f9f052c055203e20ced5087793a09902 (HEAD -> feature/desafio-git-ejercicio1)
+Author: MatiasFernando15 <matiasdigiovanni15@gmail.com>
+Date:   Wed Jun 21 19:19:21 2023 -0300
+
+    add. README.md y practica.txt
+
