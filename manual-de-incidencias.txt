@@ -1,0 +1,14 @@
+para pausar el trabajo y solucionar el problema en la rama master,
+debo seguir los siguientes pasos:
+comprobar mi estado actual del repositorio,
+realizando el comando "git status" o,
+directamente realizar un "git stash"
+y asi guardar temporalmente todo lo que venia trabajando,
+para luego saltarme de la rama "custom-navbar"
+e ir hacia la master con el comando "git checkout master",
+una vez estabdo en dicha rama, podré acceder a borrar el archivo
+"status.js" utilizando el comando "git rm status.js",
+luego "git commit -m "Eliminando archivo status.js",
+una vez finalizado, vuelvo a la rama "custom-navbar"
+con "git checkout" y luego utilizo "git stash pop" 
+para traerme nuevamente los cambios guardados temporalmente.

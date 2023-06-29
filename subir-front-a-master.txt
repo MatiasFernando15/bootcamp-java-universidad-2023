@@ -1,0 +1,7 @@
+antes que nada, debemos de tener en cuenta de chequear todos los
+cambios y commits necesarios en la rama "front-react" utilizando
+el comando "git log" para saber que en el historial está todo bien,
+cambiamos de rama (git checkout master) y realizamos un "merge"
+de la rama "front-react" en la rama "master" utilizando el comando
+"git merge front-react, luego para subir los cambios al remoto
+debemos de hacer "git push origin master".
