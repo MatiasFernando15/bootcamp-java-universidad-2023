@@ -1,9 +1,11 @@
-header {
+h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 67px;
     color: white;
     background-color: black;
     text-align: center;
+    padding: 75px 0 130px;
+    margin: 0;
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
@@ -11,6 +13,8 @@ h2 {
     color: black;
     background-color: white;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -18,21 +22,29 @@ h3 {
     color: white;
     background-color: black;
     text-align: center;
+    padding: 200px 0 200px;
+    margin: 0;
 }
-footer {
+h4 {
     font-family: 'Montserrat', sans-serif;
     font-size: 59px;
+    font-weight: 100;
     color: white;
     background-color: black;
     text-align: center;
+    padding: 70px 0 70px;
 }
 strong {
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 span, p {
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     text-align: center;
+    padding: 10px 0;
+    margin: 0;
 }
