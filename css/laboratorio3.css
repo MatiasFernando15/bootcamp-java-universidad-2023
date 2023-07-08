@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    background-color: #04146c;
+    color: white;
+}
+
+h1 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 88px;
+    font-weight: 900;
+    color: #04146c;
+}
+
+h3 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    color: #04146c;
+}
+
+strong {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    color: #04146c;
+}
+
+.img {
+    width: 630px;
+}
+
+p{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #04146c;
+    background-color:#edf7ff;
+}

@@ -1,39 +1,25 @@
-body {
-    background-color: #edf7ff;
-}
-
 h1 {
-    font-family: 'MuseoModerno', cursive;
-    font-size: 117px;
-    color:#0a2ff1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 79px;
+    color: #0a2ff1;
 }
 
-h2 {
-    font-family: 'Asap', sans-serif;
-    color:#0a2ff1;
-    font-size: 52px;
+span {
+background-color: #3ffff3;
+color: #0a2ff1;
 }
 
-h3 {
-    font-family: 'MuseoModerno', cursive;
-    font-size: 48px;
-    color:#0a2ff1;
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: medium;
+    font-size: 31px;
+    color: #0a2ff1;
 }
 
-h4 {
-    font-family: 'MuseoModerno', cursive;
-    font-size: 199px;
-    color:#8a9af1;
-}
-
-p{
-    font-family: 'Asap', sans-serif;
-    color:#04146c;
-    font-size: 33px;
-}
-
-li {
-    font-family: 'Asap', sans-serif;
-    color:#04146c;
-    font-size: 33px;
+.contenedor {
+background-image: url(../assets/fondo.JPG);
+background-repeat: no-repeat;
+background-position: bottom;
+width: 800px;
 }
