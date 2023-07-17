@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contacto-desafio1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./assets/M5-logo-azul.svg" alt="logo azul">
+        </div>
+        <div class="links">
+            <a href="/laboratorio1.html">home</a>
+            <a href="./contacto-desafio1.html">contacto</a>
+        </div>
+    </nav>
+    <main>
+        <form action="">
+            <h2>¿Querés que nos contactemos con vos?</h2>
+            <p>Dejanos tu consulta:</p>
+
+            <div>
+                <label for="name">Nombre Completo<span class="required">*</span></label>
+            </div>
+            <div>
+                <input type="text" id="name" name="name" required placeholder="Nombre Completo">
+            </div>
+            <div>
+                <label for="email">Email<span class="required">*</span></label>
+            </div>
+            <div>
+                <input type="email" id="email" name="email" required placeholder="Email">
+            </div>
+            <div>
+                <label for="message">Comentario<span class="required">*</span></label>
+            </div>
+            <div>
+                <textarea class="textarea" id="message" name="message" required placeholder="Comentario"></textarea>
+            </div>
+            <div>
+                <button class="btn btn-rst" type="reset">Resetear</button>
+                <button class="btn btn-env" type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
