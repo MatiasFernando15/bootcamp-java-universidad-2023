@@ -1,0 +1,28 @@
+@font-face {
+    font-family: cooveltica personalizada;
+    src: url(../assets/coolvetica\ rg.otf);
+}
+
+@font-face {
+    font-family: roboto personalizada;
+    src: url(../assets/Roboto-Light.ttf);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    font-family: cooveltica personalizada;
+    font-weight: 400;
+    font-size: 120px;
+    color: #0a2ff1;
+}
+
+p {
+    font-family: roboto personalizada;
+    font-weight: 300;
+    font-size: 40px;
+    color: #04146c;
+}
