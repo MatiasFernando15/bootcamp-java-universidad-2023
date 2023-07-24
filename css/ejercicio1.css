@@ -26,3 +26,17 @@ p {
     font-size: 40px;
     color: #04146c;
 }
+
+.btn {
+    border-radius: 3px;
+    border:#0a2ff1 solid 3px;
+    font-size: 40px;
+    margin: 10px;
+    width: 530px;
+    height: 70px;
+}
+
+.btn:hover {
+    background-color: #0a2ff1;
+    color: white;
+}
