@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+
+:root {
+    --color-azul: #0a2ff1;
+    --color-azul-secundario: #04146c;
+    --color-blanco: #ffff;
+}
+
+body {
+    padding: 50px;
+    margin-left: 300px;
+}
+
+h1 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--color-azul);
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    color: var(--color-azul);
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+p, strong {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    color: var(--color-azul-secundario);
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+button, a {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+    width: 400px;
+    height: 70px;
+    background-color: var(--color-azul);
+    color: var(--color-blanco);
+    margin: 0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-azul-secundario);
+    text-decoration: none;
+}
