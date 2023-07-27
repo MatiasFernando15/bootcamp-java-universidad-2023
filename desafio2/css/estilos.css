@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap');
+
+h1 {
+    font-family: 'Dongle', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+p {
+    font-family: 'Dongle', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 100%;
+    height: 70px;
+    margin-left: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.p1 {
+    background-color: orange;
+}
+
+.p2 {
+    background-color: palegoldenrod;
+}
+
+.p3 {
+    background-color: pink;
+}
+
+.container {
+    display: inline-block;
+}
+
+.mover-texto {
+    margin-left: 0;
+    font-size: 24px;
+    animation: moveText 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveText {
+    from {
+        margin-left: 20px;
+    }
+    to {
+        margin-left: 200px;
+    }
+}
+
+/*
+.mover-texto:nth-child(1) {
+    animation: moveText1 2s ease-in-out;
+}
+
+.mover-texto:nth-child(2) {
+    animation: moveText2 2s ease-in-out;
+}
+
+.mover-texto:nth-child(3) {
+    animation: moveText3 2s ease-in-out;
+}
+
+@keyframes moveText1 {
+    from {
+        margin-left: 20px;
+    }
+    to {
+        margin-left: 200px;
+    }
+}
+
+@keyframes moveText2 {
+    from {
+        margin-left: 20px;
+    }
+    to {
+        margin-left: 200px;
+    }
+}
+
+@keyframes moveText3 {
+    from {
+        margin-left: 20px;
+    }
+    to {
+        margin-left: 200px;
+    }
+}
+*/

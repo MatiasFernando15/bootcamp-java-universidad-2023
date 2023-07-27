@@ -29,3 +29,27 @@ h2 {
     font-size: 2em;
     color: black;
 }
+
+.cv-container {
+    position: relative;
+    display: inline-block;
+}
+
+.cv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%; /* El 75% del ancho de la imagen */
+    height: 95.7%;
+    background-color: rgba(190, 78, 160, 0.9); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    opacity: 0;
+    pointer-events: none; /* Para que no afecte los eventos del mouse mientras está oculto */
+    transition: opacity 0.3s ease;
+}
+
+.cv-container:hover .cv {
+    opacity: 1; /* Mostrar el curriculum al pasar el mouse sobre el contenedor */
+}
