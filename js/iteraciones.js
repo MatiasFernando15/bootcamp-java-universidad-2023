@@ -2,7 +2,7 @@
     Mostar las N primeros número 
     N se ingresa por teclado.
 */
-const N = Number(prompt('Ingrese N'));
+//const N = Number(prompt('Ingrese N'));
 //N = 10
 /*
 0
@@ -27,7 +27,7 @@ for(let i=0; i <= N ; i++) {
     console.log(i);
 }
 */
-let cantidadPares = 0;
+//let cantidadPares = 0;
 /*for(let i=N; i >= 0 ; i--) {
     if(i > 0 && i%2 === 0){
         console.log(i);
@@ -48,16 +48,24 @@ while(i>=0) {
 }
 */
 //do-while
-let i=N;
+/*let i=N;
 do {
     if(i > 0 && i%2 === 0){
         console.log(i);
         cantidadPares++;
     }
     i--;
-}while(i >=0);
+}while(i >=0);*/
 //ejercicio!!!
 
 /*mostrar los N primeros número pares */
 /*contar cuanto pares hay*/
-console.log('cantidadPares',cantidadPares);
+//console.log('cantidadPares',cantidadPares);
+
+const nota1 = Number(prompt('Ingrese nota1'));
+const nota2 = Number(prompt('Ingrese nota2'));
+const nota3 = Number(prompt('Ingrese nota3'));
+
+let promedio = (nota1 + nota2 + nota3) /3;
+
+console.log(promedio);
