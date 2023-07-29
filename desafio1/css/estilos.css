@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+.titulo {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #04146c;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.nombre {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #0a2ff1;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.profesion {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #04146c;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.texto {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #04146c;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para pantallas grandes (superiores a 992px) */
+@media (min-width: 992px) {
+    .container {
+        text-align: center;
+    }
+
+    .col-md-4 {
+        display: inline-block;
+        width: 33.33%;
+        vertical-align: top;
+        margin-bottom: 20px;
+    }
+
+    .col-md-4 .texto {
+        text-align: inherit;
+    }
+
+    .col-md-4 img {
+        width: 40%;
+    }
+
+    .col-md-4 button {
+        border: 1px solid #0a2ff1;
+        width: 110px;
+    }
+}
+
+/* Estilos para pantallas medianas y pequeñas (inferiores a  991px) */
+@media (max-width: 991px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .col-md-4 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .col-md-4 img {
+        width: 100%;
+    }
+
+    .col-md-4 .contenido {
+        text-align: center;
+    }
+
+    .col-md-4 button {
+        border: 1px solid #0a2ff1;
+        width: 110px;
+    }
+}
