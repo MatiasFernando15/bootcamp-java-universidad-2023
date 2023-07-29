@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+.titulo {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #3957f1;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+/* Estilos para pantallas grandes (superiores a 992px) */
+@media (min-width: 992px) {
+    .container {
+        text-align: center;
+    }
+
+    .col-md-6 {
+        display: inline-block;
+        width: 25%;
+        vertical-align: top;
+        margin-bottom: 20px;
+    }
+
+    .col-md-6 img {
+        width: 100%;
+    }
+
+    .col-md-6 button {
+        display: block;
+        width: 100%;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #15163d;
+        background-color: white;
+        padding: 10px;
+    }
+}
+
+/* Estilos para pantallas medianas (entre 768px y 992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .col-md-6 {
+        flex-basis: 48%;
+        margin-bottom: 20px;
+    }
+
+    .col-md-6 button {
+        display: block;
+        width: 100%;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #15163d;
+        background-color: white;
+        padding: 10px;
+    }
+}
+
+/* Estilos para pantallas pequeñas (inferiores a 768px) */
+@media (max-width: 767px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .col-md-6 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+        margin-left: 100px;
+    }
+
+    .col-md-6 button {
+        display: block;
+        width: 63%;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #15163d;
+        background-color: white;
+        padding: 10px;
+    }
+}
