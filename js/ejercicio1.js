@@ -1,7 +1,7 @@
-var costoFijo = parseFloat(prompt("Ingrese el costo fijo:"));
-var precioVenta = parseFloat(prompt("Ingrese el precio de venta por unidad:"));
-var costosVariables = parseFloat(prompt("Ingrese los costos variables por unidad"));
+var edad = parseInt(prompt("Ingrese su edad:"));
 
-var puntoEquilibrio = costoFijo / (precioVenta - costosVariables);
-
-console.log("El punto de equilibrio en unidades es: " + puntoEquilibrio);
+if (edad > 18) {
+    console.log("¡Bienvenido! Eres mayor de 18 años.");
+} else {
+    console.log("Lo siento, eres menor de 18 años.");
+}

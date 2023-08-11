@@ -1,9 +1,8 @@
-var ingresoTotal = parseFloat(prompt("Ingrese el ingreso total:"));
+var usuarioIngresado = prompt("Ingrese su usuario:");
+var claveIngresada = prompt("Ingrese su clave:");
 
-var gastosNecesarios = ingresoTotal * 0.5;
-var gastosOpcionales = ingresoTotal * 0.3;
-var ahorroInversion = ingresoTotal * 0.2;
-
-console.log("Monto para gastos necesarios: " + gastosNecesarios);
-console.log("Monto para gastos opcionales: " + gastosOpcionales);
-console.log("Monto para ahorro e inversión: " + ahorroInversion);
+if (usuarioIngresado === "admin" && claveIngresada === "1234") {
+    console.log("¡Bienvenido, admin!");
+} else {
+    console.log("Credenciales inválidas. Acceso denegado.");
+}
