@@ -1,6 +1,6 @@
 
 function adaptador1(obj) {
-    return {};
+    return obj.abilities;
 }
 function adaptador2(obj) {
     return [{}];
@@ -13,19 +13,15 @@ function getPokemon(adapt) {
     async function exec(pokemonName) {
         const pathParticular = `/pokemon/${pokemonName}`;
         //adapte la respuesta
-        const pokemon = `${urlBase}${pathParticular}`;
+        const urlPokemon = `${urlBase}${pathParticular}`;
 
         //api fetch permite hacer consultas a recursos externos (endpoint)
-        const resp = await fetch(pokemon);
-
-        console.log(resp);
+        const resp = await fetch(urlPokemon);
         
         const obj = await resp.json();
 
-        console.log(pokemon, obj);
-
         //adapto la respuesta
-        return adapt(pokemon);
+        return adapt(obj);
     }
     return exec;
 }
